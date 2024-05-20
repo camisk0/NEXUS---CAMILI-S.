@@ -1,0 +1,120 @@
+/* Adiciona estilos para a barra degradê */
+.degrade-bar {
+    height: 5px;
+    background: linear-gradient(to right, #FF00FF, #9400D3); /* Cores do degradê */
+  }
+  
+  body {
+    background-color: #191970;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #39338a;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #conteudo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  footer {
+    background-color: #39338a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .carousel img {
+    width: 100%;
+    display: none;
+  }
+  
+  .carousel img.active {
+    display: block;
+  }
+  
+  .news-article {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .news-article h3 {
+    font-size: 1.5em;
+  }
+  
+  .news-article p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  .news-article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+  }
+  
+  .games-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .game-app {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .game-app img {
+    max-width: 100px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .game-app img:hover {
+    transform: scale(1.1);
+  }
+  
+  .game-app a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
